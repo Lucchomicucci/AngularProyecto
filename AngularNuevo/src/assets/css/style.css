@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+footer{
+    background-color: #343a40;
+}
+
+form{
+    margin: 2rem;
+    max-width: 20rem;
+}
+
+.cards{
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
