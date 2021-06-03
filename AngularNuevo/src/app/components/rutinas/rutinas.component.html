@@ -1,6 +1,5 @@
-<section>
-<div class="container cards" *ngFor="let rutina of rutina">
-    <div class="card" style="width: 18rem;">
+<section class="col">
+    <div class="card" style="width: 18rem;" *ngFor="let rutina of rutina">
         <img src="{{rutina.image}}" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title">{{rutina.title}}</h5>
@@ -8,5 +7,4 @@
         <a href="#" class="btn btn-primary">Descargar</a>
         </div>
     </div>
-</div>
 </section>

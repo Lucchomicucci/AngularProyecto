@@ -10,6 +10,7 @@ import { RutinasComponent } from './components/rutinas/rutinas.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { ErrorComponent } from './components/error/error.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProductosComponent } from './components/productos/productos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
     RutinasComponent,
     ContactoComponent,
     ErrorComponent,
-    FooterComponent
+    FooterComponent,
+    ProductosComponent
   ],
   imports: [
     BrowserModule,

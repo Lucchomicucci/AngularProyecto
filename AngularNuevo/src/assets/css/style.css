@@ -11,12 +11,11 @@ form{
     max-width: 20rem;
 }
 
-.cards{
+.card{
     display: inline-block;
     margin: 0.5rem;
 }
 
-section{
-    display: flex;
-    justify-content: space-between;
+.col{
+    text-align: center;
 }
